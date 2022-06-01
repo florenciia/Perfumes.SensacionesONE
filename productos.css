@@ -1,0 +1,670 @@
+/* header dektop*/
+body{
+    background-color: #002352;
+    font-family: 'Oswald', sans-serif;
+}
+
+.headerr{
+    background-color: crimson;
+    width: 100%;
+    height: 100px;
+    margin-top: -22px;
+}
+
+.caja{
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 40px;
+    right: 25px;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    border: 3px solid crimson;
+    border-radius: 50%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:hover{
+    color: black;
+    text-decoration: underline black;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 0 10px 10px 0;
+    vertical-align: top;
+    border: 2px solid blueviolet;
+    border-radius: 5%;
+}
+
+.productos li:hover{
+    border-color: crimson;
+    border-radius: 5%;
+    /* background-color: blueviolet; */
+}
+.productos li:active{
+    border-color: lightcoral;
+    border-radius: 5%;
+    /* background-color: blueviolet; */
+}
+
+.inicio{
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* fin header dektop*/
+
+
+/* body - products dektop*/
+.imgProducto{
+    width: 250px;
+    height: 250px;
+    margin: 0px;
+    border-radius: 5%;
+    border: 2px solid crimson;
+}
+
+.imgProducto:hover{
+    border: 2px solid blueviolet;
+}
+
+.titleUp{
+    color: crimson;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.productos .title{
+    color: white;
+    font-size: 20px;
+}
+
+
+.precio{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* fin body - products dektop*/
+
+
+/* footer dektop*/
+
+.footer{
+    background-color: crimson;
+    width: 100%;
+    height: 150px;
+    padding: 2px;
+}
+
+.caja2{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo2{
+    width: 90px;
+    height: auto;
+    border: 3px solid crimson;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.text{
+    color: white;
+    font-size: 10px;
+}
+
+/* fin footer dektop*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive ipad */
+
+@media screen and (max-width:1024px) {
+    /* header dektop*/
+body{
+    background-color: #002352;
+    font-family: 'Oswald', sans-serif;
+}
+
+.headerr{
+    background-color: crimson;
+    width: 100%;
+    height: 100px;
+    margin-top: -22px;
+}
+
+.caja{
+    width: auto;
+    position: relative;
+    margin: 0;
+}
+
+nav{
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    border: 3px solid crimson;
+    border-radius: 50%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:hover{
+    color: black;
+    text-decoration: underline black;
+}
+
+.productos{
+    width: auto;
+    margin: 0;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 0 10px 10px 0;
+    vertical-align: top;
+    border: 2px solid blueviolet;
+    border-radius: 5%;
+}
+
+.productos li:hover{
+    border-color: crimson;
+    border-radius: 5%;
+    /* background-color: blueviolet; */
+}
+.productos li:active{
+    border-color: lightcoral;
+    border-radius: 5%;
+    /* background-color: blueviolet; */
+}
+
+.inicio{
+    width: auto;
+    margin: 0;
+}
+
+/* fin header dektop*/
+
+
+/* body - products dektop*/
+.imgProducto{
+    width: 90%;
+    height: 200px;
+    margin: 0px;
+    border-radius: 5%;
+    border: 2px solid crimson;
+}
+
+.imgProducto:hover{
+    border: 2px solid blueviolet;
+}
+
+.titleUp{
+    color: crimson;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.title{
+    color: white;
+    font-size: 20px;
+}
+
+
+.precio{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* fin body - products dektop*/
+
+
+/* footer dektop*/
+
+.footer{
+    background-color: crimson;
+    width: 100%;
+    height: 150px;
+    padding: 1px;
+}
+
+.caja2{
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo2{
+    width: 90px;
+    height: auto;
+    border: 3px solid crimson;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+.text{
+    color: white;
+    font-size: 13px;
+}
+
+/* fin footer dektop*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive celular grande */
+
+@media screen and (max-width:720px) {
+    /* header dektop*/
+body{
+    background-color: #002352;
+    font-family: 'Oswald', sans-serif;
+}
+
+.headerr{
+    background-color: crimson;
+    width: auto;
+    height: 100px;
+    margin-top: -22px;
+}
+
+.caja{
+    width: auto;
+    position: relative;
+    margin: 0;
+}
+
+nav{
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    border: 3px solid crimson;
+    border-radius: 50%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 2px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 1px;
+}
+
+nav a:hover{
+    color: black;
+    text-decoration: underline black;
+}
+
+.productos{
+    width: auto;
+    margin: auto;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    margin: 0 0px 10px 0;
+    vertical-align: top;
+    border: 2px solid blueviolet;
+    border-radius: 5%;
+}
+
+.productos li:hover{
+    border-color: crimson;
+    border-radius: 5%;
+    /* background-color: blueviolet; */
+}
+.productos li:active{
+    border-color: lightcoral;
+    border-radius: 5%;
+    /* background-color: blueviolet; */
+}
+
+.inicio{
+    width: auto;
+    margin: 0;
+}
+
+/* fin header dektop*/
+
+
+/* body - products dektop*/
+.imgProducto{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 5%;
+    border: 2px solid crimson;
+}
+
+.imgProducto:hover{
+    border: 2px solid blueviolet;
+}
+
+.titleUp{
+    color: crimson;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.title{
+    color: white;
+    font-size: 20px;
+}
+
+
+.precio{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* fin body - products dektop*/
+
+
+/* footer dektop*/
+
+.footer{
+    background-color: crimson;
+    width: 100%;
+    height: 120px;
+    padding: 0;
+}
+
+.caja2{
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo2{
+    width: 60px;
+    height: auto;
+    border: 3px solid crimson;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.text{
+    color: white;
+    font-size: 13px;
+}
+
+/* fin footer dektop*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive celular grande */
+
+@media screen and (max-width:375px) {
+    /* header dektop*/
+body{
+    background-color: #002352;
+    font-family: 'Oswald', sans-serif;
+}
+
+.headerr{
+    background-color: crimson;
+    width: auto;
+    height: 100px;
+    margin-top: -22px;
+}
+
+.caja{
+    width: auto;
+    position: relative;
+    margin: 0;
+}
+
+nav{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    border: 3px solid crimson;
+    border-radius: 50%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 2px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    text-decoration: none;
+    padding: 1px;
+}
+
+nav a:hover{
+    color: black;
+    text-decoration: underline black;
+}
+
+.productos{
+    width: auto;
+    margin: auto;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    margin: 0 0px 10px 0;
+    vertical-align: top;
+    border: 2px solid blueviolet;
+    border-radius: 5%;
+}
+
+.productos li:hover{
+    border-color: crimson;
+    border-radius: 5%;
+    /* background-color: blueviolet; */
+}
+.productos li:active{
+    border-color: lightcoral;
+    border-radius: 5%;
+    /* background-color: blueviolet; */
+}
+
+.inicio{
+    width: auto;
+    margin: 0;
+}
+
+/* fin header dektop*/
+
+
+/* body - products dektop*/
+.imgProducto{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 5%;
+    border: 2px solid crimson;
+}
+
+.imgProducto:hover{
+    border: 2px solid blueviolet;
+}
+
+.titleUp{
+    color: crimson;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.title{
+    color: white;
+    font-size: 20px;
+}
+
+
+.precio{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* fin body - products dektop*/
+
+
+/* footer dektop*/
+
+.footer{
+    background-color: crimson;
+    width: 100%;
+    height: 100px;
+    padding: 0;
+}
+
+.caja2{
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo2{
+    width: 50px;
+    height: auto;
+    border: 3px solid crimson;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.text{
+    color: white;
+    font-size: 10px;
+}
+
+/* fin footer dektop*/
+
+}

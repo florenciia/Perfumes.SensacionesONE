@@ -1,0 +1,750 @@
+/* header desktop*/
+
+body{
+    background-color: #002352;
+    font-family: 'Oswald', sans-serif;
+}
+
+.headerr{
+    background-color: crimson;
+    width: 100%;
+    height: 100px;
+    margin-top: -22px;
+}
+
+.caja{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 40px;
+    right: 25px;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    border: 3px solid crimson;
+    border-radius: 50%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:hover{
+    color: black;
+    text-decoration: underline black;
+}
+
+
+
+
+/* fin header desktop*/
+
+.inicio{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.modulo2{
+    /* padding: 20px; */
+    width: 940px;
+    margin: 0 auto;
+}
+
+.parrafo{
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+.titulo{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    /* border: 2px solid blueviolet; */
+    text-decoration: underline blueviolet;
+}
+
+.text{
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+}
+
+strong{
+    color: blueviolet;
+}
+
+.img-div{
+    text-align: center;
+    width: 940px;
+    margin: 20px auto;
+    border: 2px solid white;
+    padding: 1rem;
+}
+.imgg{
+    width: 100%;
+    height: 550px;
+   
+}
+
+.titulo-principal{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.img2{
+    width: 75px;
+    float: left;
+    margin-left: 40px;
+}
+
+
+.mapa{
+    text-align: center;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.bg-text{
+    color: white;
+    margin-top: 40px;
+}
+
+.parrafo{
+    font-size: 15px;
+}
+
+.text{
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+
+.modulo4{
+    width: 940px;
+    margin: 0 auto;
+    padding: 1rem;
+    color: white;
+    margin: 40px auto;
+}
+
+
+.tituloDif{
+    font-size: 25px;
+    text-align: left;
+    /* border: 2px solid blueviolet; */
+    margin-left: 10%;
+}
+
+
+.items{
+    display: inline-block;
+    vertical-align:top;
+    width: 40%;
+    margin-left: 7%;
+    list-style:none;
+}
+
+
+.text-option:before{
+    content: '❯'
+}
+
+.text-option{
+    font-size: 1rem;
+    text-align: left;
+    padding: 0.5rem;
+    font-style: italic;
+    
+}
+
+
+/* .items:first-child{
+    font-weight: bold;
+} */
+
+.imgCostado{
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid crimson; */
+    border-radius: 50%;
+    margin-top: -3%;
+    margin-left: -0rem;
+    padding: 0.3rem;
+    box-shadow: 10px 10px 35px 5px crimson, -10px -10px 35px 5px crimson ;
+                /*ubicación de la sombra en eje horizontal, luego vertil, de sólido a transparente, expansión de sombra, por último color*/
+}
+
+.video{
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 100px;
+}
+.video-video{
+    width:100%;
+    height:415px;
+    box-shadow: 20px 20px 30px 10px black;
+}
+
+
+/* footer desktop*/
+
+.footer{
+    background-color: crimson;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.caja2{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo2{
+    width: 90px;
+    height: auto;
+    border: 3px solid crimson;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.text{
+    color: white;
+    font-size: 13px;
+}
+
+/* fin footer desktop*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive ipad */
+
+@media screen and (max-width:1024px) {
+    /* header desktop*/
+
+body{
+    background-color: #002352;
+    font-family: 'Oswald', sans-serif;
+}
+
+.headerr{
+    background-color: crimson;
+    width: auto;
+    height: auto;
+    margin-top: -30px;
+}
+
+.caja{
+    width: auto;
+    position:absolute;
+    margin: 0;
+}
+
+nav{
+    position: absolute;
+    top: 35px;
+    right: 15px;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    border: 3px solid crimson;
+    border-radius: 50%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 5px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0px;
+}
+
+nav a:hover{
+    color: black;
+    text-decoration: underline black;
+}
+
+
+/* fin header desktop*/
+
+
+
+.inicio{
+    width: auto;
+    margin: 0;
+}
+
+.modulo2{
+    /* padding: 20px; */
+    width: 90%;
+    margin: auto;
+}
+
+.parrafo{
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+.titulo{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    /* border: 2px solid blueviolet; */
+    text-decoration: underline blueviolet;
+}
+
+.text1{
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+}
+
+strong{
+    color: blueviolet;
+}
+
+.img-div{
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+    border: 2px solid white;
+    padding: 0.5rem;
+}
+.imgg{
+    width: 100%;
+    height: auto;
+   
+}
+
+.titulo-principal{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.img2{
+    width: 100px;
+    float: left;
+    margin-left: 40px;
+}
+
+
+.mapa{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bg-text{
+    color: white;
+    margin-top: 40px;
+}
+
+.parrafo{
+    font-size: 20px;
+}
+
+.text{
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+
+.modulo4{
+    width: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    color: white;
+    margin: 40px auto;
+}
+
+
+.tituloDif{
+    font-size: 30px;
+    text-align: left;
+    /* border: 2px solid blueviolet; */
+    margin-left: 10%;
+}
+
+
+.items{
+    display: inline-block;
+    vertical-align:top;
+    width: 40%;
+    margin-left: 10%;
+    list-style:none;
+}
+
+
+.text-option:before{
+    content: '❯'
+}
+
+.text-option{
+    font-size: 1rem;
+    text-align: left;
+    padding: 0.5rem;
+    font-style: italic;
+    
+}
+
+
+/* .items:first-child{
+    font-weight: bold;
+} */
+
+.imgCostado{
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid crimson; */
+    border-radius: 50%;
+    margin-top: 0%;
+    margin-left: 0rem;
+    padding: 0.3rem;
+    box-shadow: 5px 5px 25px 5px crimson, -5px -5px 25px 5px crimson ;
+                /*ubicación de la sombra en eje horizontal, luego vertil, de sólido a transparente, expansión de sombra, por último color*/
+}
+
+.video{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 100px;
+}
+.video-video{
+    width: 100%;
+    height: 375px;
+    box-shadow: 10px 10px 20px 5px black;
+}
+
+
+/* footer desktop*/
+
+.footer{
+    background-color: crimson;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+
+.caja2{
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo2{
+    width: 90px;
+    height: auto;
+    border: 3px solid crimson;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.text{
+    color: white;
+    font-size: 13px;
+}
+
+/* fin footer desktop*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive celular */
+
+@media screen and (max-width:375px) {
+    /* header desktop*/
+
+body{
+    background-color: #002352;
+    font-family: 'Oswald', sans-serif;
+}
+
+.headerr{
+    background-color: crimson;
+    width: auto;
+    height: auto;
+    margin-top: -22px;
+}
+
+.caja{
+    width: auto;
+    position:absolute;
+    margin: 0;
+}
+
+nav{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    border: 3px solid crimson;
+    border-radius: 50%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 0;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 0px;
+}
+
+nav a:hover{
+    color: black;
+    text-decoration: underline black;
+}
+
+
+/* fin header desktop*/
+
+
+
+.inicio{
+    width: auto;
+    margin: 0;
+}
+
+.modulo2{
+    /* padding: 20px; */
+    width: auto;
+    margin: 0 auto;
+}
+
+.parrafo{
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+.titulo{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    /* border: 2px solid blueviolet; */
+    text-decoration: underline blueviolet;
+}
+
+.text1{
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+}
+
+strong{
+    color: blueviolet;
+}
+
+.img-div{
+    text-align: center;
+    width: auto;
+    margin: 20px auto;
+    border: 2px solid white;
+    padding: 1rem;
+}
+.imgg{
+    width: 100%;
+    height: auto;
+   
+}
+
+.titulo-principal{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.img2{
+    width: 100px;
+    float: left;
+    margin-left: 10px;
+}
+
+
+.mapa{
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+}
+
+.bg-text{
+    color: white;
+    margin-top: 40px;
+}
+
+.parrafo{
+    font-size: 15px;
+}
+
+.text{
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+
+.modulo4{
+    width: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    color: white;
+    margin: 40px auto;
+}
+
+
+.tituloDif{
+    font-size: 20px;
+    text-align: center;
+    /* border: 2px solid blueviolet; */
+    margin-left: auto;
+}
+
+
+.items{
+    display: inline-block;
+    vertical-align:top;
+    width: 50%;
+    margin-left: 10%;
+    list-style:none;
+}
+
+
+
+.text-option{
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    font-style: italic;
+    
+}
+
+.text-option:before{
+    content: '❯'
+}
+
+/* .items:first-child{
+    font-weight: bold;
+} */
+
+.imgCostado{
+    width: 150px;
+    height: 150px;
+    /* border: 2px solid crimson; */
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 5rem;
+    padding: 0.3rem;
+    box-shadow: 5px 5px 25px 5px crimson, -5px -5px 25px 5px crimson ;
+                /*ubicación de la sombra en eje horizontal, luego vertil, de sólido a transparente, expansión de sombra, por último color*/
+}
+
+.video{
+    width: auto;
+    margin-left: 0%;
+    margin-top: 75px;
+}
+.video-video{
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 20px 5px black;
+}
+
+
+/* footer desktop*/
+
+.footer{
+    background-color: crimson;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+
+.caja2{
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo2{
+    width: 90px;
+    height: auto;
+    border: 3px solid crimson;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.text{
+    color: white;
+    font-size: 13px;
+}
+
+/* fin footer desktop*/
+
+}
+
+
+
+
+
+
+
+
+

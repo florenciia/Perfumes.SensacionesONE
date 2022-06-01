@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contacto.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+
+
+    <title>Contacto - Perfumes.Sensaciones </title>
+    <link rel="shortcut icon" href="./imgs/logo.jpeg" >
+
+</head>
+<body>
+    
+    <header class="headerr">
+        <div class="caja">
+            <h1> <a href="index.html"> <img class="logo" src="./imgs/logo.jpeg" alt="logo-perfume.sensations"> </a> </h1>
+            <nav>
+                <ul>
+                    <li> <a href="index.html"> Perfume.Sensations </a> </li>
+                    <li> <a href="index.html"> Home</a> </li>
+                    <li> <a href="productos.html"> Products</a> </li>
+                    <li> <a href="contacto.html"> Contact</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="inicio">
+            <h1> Contáctenos</h1>
+
+            <form>
+                <label for="nombreapellido"> Name and surname</label>
+                <input type="text" id="nombreapellido" class="input-padron" required> 
+
+                <label for="email"> Email </label>
+                <input type="email" id="email" placeholder="email@email.com" class="input-padron" required> 
+                
+                <label for="phone"> Phone </label>
+                <input type="tel" id="phone" placeholder="(011) XXXX XXXX" class="input-padron" required> 
+
+                <label for="msj">Massage</label>
+                <textarea cols="65" rows="10" id="msj" class="input-padron" required> </textarea>
+
+                <fieldset class="fieldset">
+                    <legend class="quest"> How do you prefer us to contact you? </legend>
+
+                    <label for="radio-email"> 
+                        <input type="radio" name="contacto" value="email" id="radio-email">
+                        Email
+                    </label>
+                    <!-- <label for="radio-phone">
+                        <input type="radio" name="contacto" value="phone" id="radio-phone"> 
+                        Phone
+                    </label> -->
+                    <label for="radio-wpp">
+                        <input type="radio" name="contacto" value="wpp" id="radio-wpp" checked> 
+                        WhatsApp
+                    </label>
+                    
+                </fieldset>
+
+                <fieldset class="fieldset">
+                    
+                    <legend class="quest"> What time do you prefer to be attended? </legend>
+                    
+                    <select>
+                        <option> Morning </option>
+                        <option> Afternoon </option>
+                        <option> Evening </option>
+                    </select>
+                    
+                </fieldset>
+
+                <label class="checkboxx"> <input type="checkbox" checked> Would you like recibed news about our perfumes?</label>
+                
+                <input type="submit" value="Enviar formulario" class="enviar">
+            </form>
+
+            <div class="tabla">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Días</th>
+                            <th>Horario</th>
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                        <tr>
+                            <td>Lunes</td>
+                            <td>10hs - 18hs</td>
+                        </tr>
+                        <tr>
+                            <td>Miércoles</td>
+                            <td>10hs - 18hs</td>
+                        </tr>
+                        <tr>
+                            <td>Viernes</td>
+                            <td>10hs - 18hs</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="caja2">
+            <img class="logo2" src="./imgs/logo.jpeg">
+            <p class="text"> &copy CopyRight Perfume.Sensations 2022</p>
+        </div>
+    </footer>
+   
+    
+</body>
+</html>
